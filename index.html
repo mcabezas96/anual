@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/Mapadelmundo_1.js"></script><script src="layers/Turqua_2.js"></script><script src="layers/Tnez_3.js"></script><script src="layers/Siria_4.js"></script><script src="layers/Portugal_5.js"></script><script src="layers/Montenegro_6.js"></script><script src="layers/Marruecos_7.js"></script><script src="layers/Malta_8.js"></script><script src="layers/Libia_9.js"></script><script src="layers/Lbano_10.js"></script><script src="layers/Italia_11.js"></script><script src="layers/Israel_12.js"></script><script src="layers/Grecia_13.js"></script><script src="layers/Francia_14.js"></script><script src="layers/Espaa_15.js"></script><script src="layers/Egipto_16.js"></script><script src="layers/Croacia_17.js"></script><script src="layers/Chipre_18.js"></script><script src="layers/Argelia_19.js"></script><script src="layers/Albania_20.js"></script><script src="layers/Diciembre_21.js"></script><script src="layers/Noviembre_22.js"></script><script src="layers/Octubre_23.js"></script><script src="layers/Septiembre_24.js"></script><script src="layers/Agosto_25.js"></script><script src="layers/Julio_26.js"></script><script src="layers/Junio_27.js"></script><script src="layers/Mayo_28.js"></script><script src="layers/Abril_29.js"></script><script src="layers/Marzo_30.js"></script><script src="layers/Febrero_31.js"></script><script src="layers/Enero_32.js"></script><script src="layers/Diciembre_33.js"></script><script src="layers/Noviembre_34.js"></script><script src="layers/Octubre_35.js"></script><script src="layers/Septiembre_36.js"></script><script src="layers/Agosto_37.js"></script><script src="layers/Julio_38.js"></script><script src="layers/Junio_39.js"></script><script src="layers/Mayo_40.js"></script><script src="layers/Abril_41.js"></script><script src="layers/Marzo_42.js"></script><script src="layers/Febrero_43.js"></script><script src="layers/Enero_44.js"></script>
+        <script src="styles/Mapadelmundo_1_style.js"></script><script src="styles/Turqua_2_style.js"></script><script src="styles/Tnez_3_style.js"></script><script src="styles/Siria_4_style.js"></script><script src="styles/Portugal_5_style.js"></script><script src="styles/Montenegro_6_style.js"></script><script src="styles/Marruecos_7_style.js"></script><script src="styles/Malta_8_style.js"></script><script src="styles/Libia_9_style.js"></script><script src="styles/Lbano_10_style.js"></script><script src="styles/Italia_11_style.js"></script><script src="styles/Israel_12_style.js"></script><script src="styles/Grecia_13_style.js"></script><script src="styles/Francia_14_style.js"></script><script src="styles/Espaa_15_style.js"></script><script src="styles/Egipto_16_style.js"></script><script src="styles/Croacia_17_style.js"></script><script src="styles/Chipre_18_style.js"></script><script src="styles/Argelia_19_style.js"></script><script src="styles/Albania_20_style.js"></script><script src="styles/Diciembre_21_style.js"></script><script src="styles/Noviembre_22_style.js"></script><script src="styles/Octubre_23_style.js"></script><script src="styles/Septiembre_24_style.js"></script><script src="styles/Agosto_25_style.js"></script><script src="styles/Julio_26_style.js"></script><script src="styles/Junio_27_style.js"></script><script src="styles/Mayo_28_style.js"></script><script src="styles/Abril_29_style.js"></script><script src="styles/Marzo_30_style.js"></script><script src="styles/Febrero_31_style.js"></script><script src="styles/Enero_32_style.js"></script><script src="styles/Diciembre_33_style.js"></script><script src="styles/Noviembre_34_style.js"></script><script src="styles/Octubre_35_style.js"></script><script src="styles/Septiembre_36_style.js"></script><script src="styles/Agosto_37_style.js"></script><script src="styles/Julio_38_style.js"></script><script src="styles/Junio_39_style.js"></script><script src="styles/Mayo_40_style.js"></script><script src="styles/Abril_41_style.js"></script><script src="styles/Marzo_42_style.js"></script><script src="styles/Febrero_43_style.js"></script><script src="styles/Enero_44_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
